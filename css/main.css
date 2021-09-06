@@ -1,7 +1,8 @@
-body{
+.dark{
 
-    background-color: #111;
-}
+    background-color: rgb(17, 16, 16);
+    color: white;
+    }
 
 .card{
 
@@ -9,6 +10,34 @@ background-color: blue;
 color: white;
 
 }
+
+.none{
+
+    display: none;
+}
+.block{
+
+    display: block;
+}
+.add{
+
+    width: 50%;
+    
+    margin: auto;
+    }
+    .daad{
+        width:100%;
+    
+    
+      
+    }
+
+    .check{
+
+background-color: brown;
+text-decoration: line-through;
+
+    }
 
 @media(max-width:600){
 
