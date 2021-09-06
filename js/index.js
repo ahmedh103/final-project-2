@@ -39,10 +39,10 @@ add.addEventListener('click',openModel);
 let addTask =() =>{
 
 let taskData =taskInput.value;
-if(taskData.trim()==""||taskInput.value.length<3||taskInput.value.length>20){
+if(taskData.trim()==""||taskInput.value.length<3||taskInput.value.length>40){
 
 
-    alert('please enter data');
+    alert('please enter data  and please enter data more than 3 word and less than 40 word');
 }else{
 
     noTasks.classList.add('none');
